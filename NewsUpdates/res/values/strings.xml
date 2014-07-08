@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NewsUpdates</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    
+     <dimen name="count">10dp</dimen>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string-array name="menuItems">
+        
+         <item>World News</item>
+          <item>National News</item>
+          <item>Elections</item>
+        <item>Technology</item>
+        <item>Auto Expo</item>
+        <item>Books</item>
+        <item>Sports </item>
+        <item>Entertainment</item>
+        <item>Health</item>
+        <!-- <item>Auto Expo</item>
+        <item>Books</item>
+         <item>Health</item>
+        <item>Sports</item>
+        <item>Entertainment</item> -->
+        
+       
+    </string-array>
+    
+    
+    <string-array name="itemUrl">
+        
+        
+         <item>http://ibnlive.in.com/xml/rss/world/world.xml</item>
+          <item>http://ibnlive.in.com/xml/rss/india/india.xml</item>
+          <item>http://ibnlive.in.com/xml/rss/elections/elections.xml</item>
+        <item>http://ibnlive.in.com/xml/rss/tech/tech.xml</item>
+        <item>http://ibnlive.in.com/xml/rss/autoexpo/autoexpo.xml</item>
+        <item>http://ibnlive.in.com/xml/rss/books/books.xml</item>
+        <item>http://ibnlive.in.com/xml/rss/sports/sports.xml</item>
+         <item>http://ibnlive.in.com/xml/rss/movies/movies.xml</item>
+        <item>http://ibnlive.in.com/xml/rss/health/health.xml</item>
+        
+        
+    </string-array>
+    
+    
+     <string name="COMMON_URL">http://ibnlive.in.com/xml/rss/</string>
+    
+     <string name="TECHNOLOGY_URL">tech/tech.xml</string>
+    
+    
+</resources>

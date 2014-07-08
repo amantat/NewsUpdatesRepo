@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="250dp"
+    android:background="#00000000"
+    android:orientation="vertical" >
+    
+    
+    <EditText
+        android:id="@+id/cahnnelname_edt"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="start"
+        android:hint="Channel Name" >
+
+         <requestFocus />
+     
+    </EditText>
+    
+    
+    <EditText
+        android:id="@+id/categorymname_edt"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="start"
+        android:hint="Category Name" >
+
+     
+     
+    </EditText>
+    
+    <EditText
+        android:id="@+id/url_edt"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="start"
+        android:hint="Category Url" >
+
+        
+     
+    </EditText>
+    
+    <RelativeLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+       
+        android:layout_marginTop="10dp"
+        >
+         <Button
+        android:id="@+id/cancel"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/ok"
+        android:layout_alignBottom="@+id/ok"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="46dp"
+        android:background="@drawable/submit"
+        android:text="Cancel"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/question"
+        android:layout_below="@+id/question"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/submit"
+        android:gravity="center"
+        android:text="Ok"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+        
+    </RelativeLayout>
+    
+</LinearLayout>
